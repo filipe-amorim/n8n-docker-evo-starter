@@ -5,11 +5,10 @@ Este repositório automatiza a implantação de uma infraestrutura completa de a
 1. Pré-requisitos (The Foundation)
 Antes de iniciar, garanta que seu ambiente possui as ferramentas base instaladas:
 
-Docker: Engine de virtualização por containers.
+💻 Visual Studio Code: https://code.visualstudo.com/
 
-Docker Compose: Orquestrador para subir múltiplos serviços simultaneamente.
+🐳 Docker: https://www.docker.com/get-started/
 
-Git: Para clonar este repositório.
 ---------------------------------------------------------------------------------
 2. Passo a Passo de Instalação
 Etapa A: Instalação do Docker (Ambiente Local)
@@ -28,7 +27,6 @@ No seu terminal, execute:
 
 git clone https://github.com/filipe-amorim/n8n-docker-evo-starter.git
 cd n8n-docker-evo-starter
-
 
 ---------------------------------------------------------------------------------
 Criado por: Filipe Amorim
