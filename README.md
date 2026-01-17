@@ -1,24 +1,36 @@
-🚀 n8n + Evolution API (Docker Starter)
-Guia para implantação de infraestrutura automatizada de alto nível. Este template orquestra n8n, Evolution API, PostgreSQL e Redis para máxima performance e escalabilidade local.
+🚀 Guia de Instalação: n8n + Evolution API + Redis
+Este repositório automatiza a implantação de uma infraestrutura completa de automação utilizando containers Docker.
 
-📋 Etapas de Implementação
-1. Preparação do Terreno (Pré-requisitos)
-Antes de iniciar a manobra, certifique-se de ter a base instalada:
+---------------------------------------------------------------------------------
+1. Pré-requisitos (The Foundation)
+Antes de iniciar, garanta que seu ambiente possui as ferramentas base instaladas:
 
-Docker Desktop: O motor que rodará nossos containers.
+Docker: Engine de virtualização por containers.
 
-Git: Ferramenta para clonagem e versionamento do projeto.
+Docker Compose: Orquestrador para subir múltiplos serviços simultaneamente.
 
-2. Aquisição do Código (Clonagem)
-Traga os arquivos do repositório para sua máquina local:
+Git: Para clonar este repositório.
+---------------------------------------------------------------------------------
+2. Passo a Passo de Instalação
+Etapa A: Instalação do Docker (Ambiente Local)
 
-<img width="524" height="99" alt="image" src="https://github.com/user-attachments/assets/cdbc1a58-9c6e-49af-aab2-e3010c7ff78f" />
+Se você ainda não possui o Docker, siga os comandos de acordo com seu sistema:
 
-O que é: Baixa a estrutura de pastas e o arquivo de orquestração (docker-compose.yaml).
+Linux (Ubuntu/Debian):
+
+sudo apt update && sudo apt install docker.io docker-compose -y
+sudo systemctl enable --now docker
+
+Windows/Mac: Faça o download do Docker Desktop e siga o assistente de instalação padrão.
+
+Etapa B: Clonar o Repositório
+No seu terminal, execute:
+
+git clone https://github.com/filipe-amorim/n8n-docker-evo-starter.git
+cd n8n-docker-evo-starter
 
 
-
-
+---------------------------------------------------------------------------------
 Criado por: Filipe Amorim
 
 Minhas Redes Sociais
