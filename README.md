@@ -1,4 +1,4 @@
-🚀 Guia de Instalação: n8n + Evolution API + Redis
+### 🚀 Guia de Instalação: n8n + Evolution API + Redis
 
 Este repositório automatiza a implantação de uma infraestrutura completa de automação utilizando containers Docker.
 
