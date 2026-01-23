@@ -48,10 +48,10 @@ copy .env.example .env
 <img width="782" height="422" alt="image" src="https://github.com/user-attachments/assets/07364e30-23a2-4e8e-9136-e0a7701b86e6" />
 <img width="920" height="458" alt="image" src="https://github.com/user-attachments/assets/58b57d83-c02e-4035-875f-05a95b09f8e6" />
 
-
 ### 3.3 ALTERE O  `AUTHENTICATION_API_KEY`
 
-**IMPORTANTE**: altere preferencialmente a variável `AUTHENTICATION_API_KEY` (Evolution API) para um valor seguro.
+**IMPORTANTE**: altere preferencialmente a variável `AUTHENTICATION_API_KEY` (Evolution API) para um valor seguro. https://onlinehashtools.com/generate-random-sha256-hash
+
 *Revise* também timezone e demais variáveis (ex.: `TZ`, `GENERIC_TIMEZONE`, configs de Postgres e Redis) conforme seu ambiente.
 
 
